@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personenverwaltung</title>
+</head>
+<body>
+    <h2>Person hinzufügen:</h2>
+    <form action="/addPerson" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="yearOfBirth">Geburtsjahr:</label>
+        <input type="text" id="yearOfBirth" name="yearOfBirth"><br><br>
+        <button type="submit">Speichern</button>
+    </form>
+
+    <h2>Gespeicherte Personen:</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Geburtsjahr</th>
+        </tr>
+        <!-- Hier werden die gespeicherten Daten angezeigt -->
+        <!-- Dieser Teil wird dynamisch durch JavaScript aktualisiert -->
+    </table>
+</body>
+</html>

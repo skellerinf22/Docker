@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS meineDatenbank;
+
+USE meineDatenbank;
+
+CREATE TABLE IF NOT EXISTS Personen (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  Name VARCHAR(255) NOT NULL,
+  Geburtsjahr INT NOT NULL
+);
